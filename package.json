@@ -1,9 +1,9 @@
 
 
 {
-  "name": "lite-xd",
+  "name": "sky-xd",
   "version": "0.0.5",
-  "description": "A WhatsApp Bot Created By Malvin King",
+  "description": "A WhatsApp Bot Created By Airsee King",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name lite",
