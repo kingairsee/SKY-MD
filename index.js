@@ -815,3 +815,10 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   setTimeout(() => {
   connectToWA()
   }, 4000);
+app.get("/", (req, res) => {
+  res.send("✅ SKY-MD bot is running...");
+});
+
+app.listen(port, '0.0.0.0', () => {
+  console.log(`🚀 Bot aktif sou port ${port}`);
+});
