@@ -1,6 +1,6 @@
-name: lite-xd
+name: sky-md
 services:
-  - name: lite-xd-service
+  - name: sky-md-service
     type: web
     ports:
       - 5000
