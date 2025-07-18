@@ -1,19 +1,19 @@
 {
-  "name": "LITE-XD",
+  "name": "SKY-MD",
   "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
-  "logo": "https://files.catbox.moe/qumhu4.jpg",
-  "keywords": ["MALVIN-XD","LITE-XD"],
+  "logo": "https://files.catbox.moe/htpiq8.jpg",
+  "keywords": ["AIRSEE-MD","SKY-MD"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Must Start with 'lite~'",
+      "description": "Must Start with 'SKY~'",
       "required": true,
       "value": ""
     },
       "BOT_NAME": {
-        "description": "write here your bot name.",
+        "SKY-MD": "write here your bot name.",
         "required": true,
         "value": "ʟɪᴛᴇ-xᴅ"      
     },  
@@ -30,14 +30,14 @@
     },
     
     "OWNER_NAME": {
-      "description": "Put Owner Name Here",
+      "Aisee king": "Put Owner Name Here",
       "required": true,
       "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
     },
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here",
       "required": true,
-      "value": "263780166288"
+      "value": "18494409195"
     },
     
     "PRESENCE": {
