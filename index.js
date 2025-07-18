@@ -823,3 +823,17 @@ app.get("/", (req, res) => {
 app.listen(port, '0.0.0.0', () => {
   console.log(`🚀 Bot aktif sou port ${port}`);
 });
+
+const { generatePairingCode, verifyPairingCode } = require('./lib/pairing');
+
+// Pou jenere kòd la
+const code = generatePairingCode();
+console.log("Kòd pairing ou:", code);
+
+// Pou verifye li pita (egzanp lè yon itilizatè antre li)
+const isValid = verifyPairingCode(code);
+if (isValid) {
+  console.log("✅ Kòd la valab!");
+} else {
+  console.log("❌ Kòd la pa bon oswa li ekspire.");
+	}
