@@ -44,7 +44,7 @@
 
 ### 2..DÉPLOIEMENT SUR RENDER 💀
 
-[![Déployer sur Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kingairsee/Airsee-sky.git)
+[![Déployer sur Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kingairsee/SKY-MD.git)
 
 ---
 
@@ -95,9 +95,9 @@ steps:
 
 > **DÉVELOPPEUR DE SKY-MD**  
 - [Lord Airsee](https://github.com/kingairsee)  
-- Créateur et propriétaire de SKY-MD
+- Créateur et propriétaire de KING AIRSEE 
 
-> **Assistant SKY-MD**  
+> **Assistant KING AIRSEE**  
 - [Airsee King](https://github.com/kingairsee)  
 - Pour l’aide dans les fichiers plugin du bot.
 
