@@ -1,0 +1,58 @@
+{
+  "name": "SKY-MD",
+  "description": "Javascript WhatsApp bot made by Airsee ᴛᴇᴄʜ",
+  "logo": "https://files.catbox.moe/htpiq8.jpg",
+  "keywords": ["KING AIRSEE","SKY-MD"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Must Start with 'lite~'",
+      "required": true,
+      "value": ""
+    },
+      "BOT_NAME": {
+        "description": "write here your bot name.",
+        "required": true,
+        "value": "ski-md"      
+    },  
+    "MODE": {
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+     },
+   
+    "PREFIX": {
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
+    },
+    
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "Airsee ᴋɪɴɢ"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "18494409195"
+    },
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+  
